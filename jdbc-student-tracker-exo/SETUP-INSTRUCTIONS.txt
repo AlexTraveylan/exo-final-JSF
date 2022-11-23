@@ -1,0 +1,15 @@
+Suivez ces instructions pour lancer l'application:
+
+1. Installez une base de données MYSQL avec Workbench
+https://dev.mysql.com/downloads/mysql/
+
+
+2. Lancez les scripts pour créer un user et charger les donnes
+   a. sql-scripts/01-create-user.sql
+   b. sql-scripts/02-student-tracker.sql
+
+3. Ouvez le projet avec le code fourni
+
+4. Runnez l'application: 
+   a. Sélectionnez le fichier WebContent/index.html
+   b. Click droit, select Run As > Run On Server

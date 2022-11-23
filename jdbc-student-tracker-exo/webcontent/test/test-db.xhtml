@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<!-- CAPTER D'ÉVÉNEMENT
+
+Quand la page est entièrrement chargée
+Va récupérer en bdd les données
+
+ -->
+
+<f:metadata>
+	<f:event type="preRenderView" listener="#{studentController.loadStudents()}"/>
+</f:metadata>
+
+<h:head>
+	<title>Database Test</title>
+</h:head>
+
+<h:body>
+	<h3>Database Test</h3>
+
+	<hr/>
+	
+	<br/>
+	
+	Les données : #{studentController.students}
+	
+	
+			
+</h:body>
+</html>
